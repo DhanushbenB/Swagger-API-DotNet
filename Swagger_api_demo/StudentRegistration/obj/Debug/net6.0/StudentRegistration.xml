@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentRegistration</name>
+    </assembly>
+    <members>
+        <member name="M:StudentRegistration.Controllers.StudentController.Get">
+            <summary>
+            To get the list of students
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StudentRegistration.Controllers.StudentController.Add(StudentRegistration.StudentModels.StudentModel)">
+            <summary>
+            To add a student
+            </summary>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentRegistration.Controllers.StudentController.UpdateStudent(StudentRegistration.StudentModels.StudentModel)">
+            <summary>
+            To update student
+            </summary>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentRegistration.Controllers.StudentController.DeleteStudent(System.Int32)">
+            <summary>
+            To delete student
+            </summary>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
